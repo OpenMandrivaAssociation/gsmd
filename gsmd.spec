@@ -15,7 +15,7 @@ Group: 		System/Servers
 License: 	GPL
 URL: 		http://www.openmoko.org/
 Source0:	%{name}-%{svnrel}.tar.lzma
-BuildRequires:	lzma
+BuildRequires:	lzma glib-gettextize
 
 %description
 GSM daemon for OpenMoko.
