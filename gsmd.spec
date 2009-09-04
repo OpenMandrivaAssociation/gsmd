@@ -1,7 +1,7 @@
 %define	name	gsmd
 %define	version	0
 %define	svnrel	20070701
-%define	release %mkrel 0.%{svnrel}.1
+%define	release %mkrel 0.%{svnrel}.2
 
 %define major 0
 %define libname %mklibname %{name} %{major}
