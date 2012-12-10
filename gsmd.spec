@@ -84,3 +84,26 @@ rm -rf %{buildroot}
 %{_libdir}/*.so
 %{_libdir}/gsmd/*.so
 %{_libdir}/pkgconfig/*.pc
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0-0.20070701.3mdv2011.0
++ Revision: 619261
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0-0.20070701.2mdv2010.0
++ Revision: 429330
+- rebuild
+
+* Mon Jun 09 2008 Pixel <pixel@mandriva.com> 0-0.20070701.1mdv2009.0
++ Revision: 217186
+- do not call ldconfig in %%post/%%postun, it is now handled by filetriggers
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - fix no-buildroot-tag
+
+* Sun Jul 01 2007 Per Øyvind Karlsen <peroyvind@mandriva.org> 0-0.20070701.1mdv2008.0
++ Revision: 46861
+- fix buildrequires
+- Import gsmd
+
