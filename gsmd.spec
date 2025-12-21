@@ -16,6 +16,11 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: 	GPL
 URL: 		https://www.openmoko.org/
 Source0:	%{name}-%{svnrel}.tar.lzma
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	lzma glib-gettextize
 
 %description
